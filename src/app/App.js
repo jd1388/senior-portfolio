@@ -1,21 +1,26 @@
 import React from 'react';
 
 import Hero from '../hero';
-import CareerGoals from '../career-goals';
-import Internships from '../internships';
+import Experience from '../experience';
 import Projects from '../projects';
 import Documents from '../documents';
 import ContactInfo from '../contact-info';
 
 import './App.css';
 
+const Section = ({ children }) => (
+    <div>
+        {children}
+        <hr />
+    </div>
+);
+
 const App = () => (
-    <div style={{ padding: '15vh 25vw 0 25vw' }}>
-        <Hero />
-        <CareerGoals />
-        <Internships />
-        <Projects />
-        <Documents />
+    <div style={{ padding: '10vh 25vw 0 25vw' }}>
+        <Section><Hero /></Section>
+        <Section><Experience /></Section>
+        <Section><Projects /></Section>
+        <Section><Documents /></Section>
         <ContactInfo />
     </div>
 );

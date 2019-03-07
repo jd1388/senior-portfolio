@@ -2,7 +2,7 @@ import React from 'react';
 import Typography from '@material-ui/core/Typography';
 
 const getHeaderFontSize = (size) => {
-    const baseSize = 24;
+    const baseSize = 20;
     const numberOfSizes = 6;
 
     return `${(numberOfSizes + 1 - size) * baseSize}pt`;
