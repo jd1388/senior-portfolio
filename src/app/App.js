@@ -9,15 +9,15 @@ import ContactInfo from '../contact-info';
 import './App.css';
 
 const Section = ({ children }) => (
-    <div>
+    <div style={{ paddingTop: '16px' }}>
         {children}
         <hr />
     </div>
 );
 
 const App = () => (
-    <div style={{ padding: '10vh 25vw 0 25vw' }}>
-        <Section><Hero /></Section>
+    <div style={{ padding: '15vh 25vw 0 25vw' }}>
+        <Hero />
         <Section><Experience /></Section>
         <Section><Projects /></Section>
         <Section><Documents /></Section>

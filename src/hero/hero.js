@@ -8,7 +8,7 @@ import data from './data';
 const Hero = () => (
     <div>
         <Header size={1} style={{ textAlign: 'center', paddingBottom: '64px' }}>{data.title}</Header>
-        <Content style={{ paddingBottom: '16px' }}>{data.message}</Content>
+        <Content>{data.message}</Content>
         <Content>{data.goals}</Content>
     </div>
 );
