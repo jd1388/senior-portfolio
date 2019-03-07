@@ -1,12 +1,14 @@
 import React from 'react';
-import Typography from '@material-ui/core/Typography';
+
+import Header from '../core/header';
+import Content from '../core/content';
 
 import data from './data';
 
 const Hero = () => (
     <div style={{ border: '1px solid blue' }}>
-        <Typography variant='h1'>{data.title}</Typography>
-        <Typography variant='body1'>{data.message}</Typography>
+        <Header size={1} style={{ textAlign: 'center', paddingBottom: '64px' }}>{data.title}</Header>
+        <Content>{data.message}</Content>
     </div>
 );
 
