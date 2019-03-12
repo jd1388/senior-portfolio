@@ -1,5 +1,9 @@
 export default [
     {
+        name: 'Senior Design: Elderly Care IoT Solution',
+        description: 'For Senior Design at Iowa State, I am working on a project that collects data about an elderly resident going about their day. The goal of this project is to be able to use this data to predict the resident’s future health. With these predictions, our system can alert family members and caretakers to any issues arising in hope of prolonging the life of the elderly resident. For this project, I am taking the lead on our web application’s development. Our web app is developed using React, and it lives on AWS along with the rest of our cloud infrastructure.'
+    },
+    {
         name: 'Terra',
         description: 'Terra is a platform for users to post services that they need done at their residences (lawncare, snow removal, etc.). After a user makes a post, another user can complete the tasks in the post, then get paid through Terra. Currently I\'m working on this project with a group of friends. We are currently working on the first iteration of the project, which consists of users being able to create postings that other users can complete. The only services that we will handle initially is lawncare, but we will slowly add other services. I\'m responsible for the frontend design. I\'ve set up the Terra frontend to use React, and we use Redux for handling client-side data.'
     },
