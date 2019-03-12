@@ -1,8 +1,8 @@
 import React from 'react';
 import Typography from '@material-ui/core/Typography';
 
-const Documents = () => (
-    <div>
+const Documents = ({ style }) => (
+    <div style={style}>
         <Typography>This is where the various documents I need will go</Typography>
     </div>
 );

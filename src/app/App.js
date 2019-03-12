@@ -8,20 +8,13 @@ import ContactInfo from '../contact-info';
 
 import './App.css';
 
-const Section = ({ children }) => (
-    <div style={{ paddingTop: '16px' }}>
-        {children}
-        <hr />
-    </div>
-);
-
 const App = () => (
     <div style={{ padding: '15vh 25vw 0 25vw' }}>
         <Hero />
-        <Section><Experience /></Section>
-        <Section><Projects /></Section>
-        <Section><Documents /></Section>
-        <ContactInfo />
+        <Experience style={{ paddingTop: '16px' }} />
+        <Projects style={{ paddingTop: '16px' }} />
+        <Documents style={{ paddingTop: '16px' }} />
+        <ContactInfo style={{ paddingTop: '16px' }} />
     </div>
 );
 

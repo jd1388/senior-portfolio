@@ -18,8 +18,8 @@ const createInternshipEnteries = experiences => experiences.map(experience => (
     </div>
 ))
 
-const Internships = () => (
-    <div>
+const Internships = ({ style }) => (
+    <div style={style}>
         <Header size={5} style={{ paddingBottom: '32px' }}>Career Experience</Header>
         {createInternshipEnteries(data)}
     </div>
